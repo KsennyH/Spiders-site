@@ -1,0 +1,33 @@
+.spider {
+    padding-bottom: 6.25rem;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__img {
+        flex: 1 0 34%;
+        margin-right: 4%;
+        img {
+            border-radius: 0.625rem;
+        }
+    }
+    &__descr {
+        flex: 0 1 53%;
+    }
+    &__text {
+        font-family: 'Syne', sans-serif;
+        font-size: 1.25rem;
+        line-height: 1.7;
+        color: $title;
+        margin-bottom: 0.9375rem;
+    }
+    &--right 
+    .spider__img {
+        order: 1;
+        margin-right: 0;
+    }
+    .spider__descr {
+        margin-right: 4%;
+    }
+}

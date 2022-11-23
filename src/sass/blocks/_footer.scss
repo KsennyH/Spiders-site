@@ -1,0 +1,24 @@
+.footer {
+    line-height: 1.5;
+    padding: 3.4375rem 0;
+    &__copy {
+        padding-top: 3.4375rem;
+        text-align: center;
+        color: $title;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            max-width: 54.375rem;
+            height: 1px;
+            background-color: $default;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    .menu {
+        flex-wrap: wrap;
+    }
+}

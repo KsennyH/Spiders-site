@@ -1,0 +1,33 @@
+.gallery {
+    padding-bottom: 7.5rem;
+    &__title {
+        text-align: center;
+        margin-bottom: 3.125rem;
+    }
+    &__container {
+        max-width: 50rem;
+        padding: 0 0.9375rem;
+        margin: 0 auto;
+    }
+}
+
+.gallery__slider.swiper-container {
+    padding: 0.625rem;
+}
+
+.gallery__slider .swiper-button-prev::after,
+.gallery__slider .swiper-button-next::after {
+    display: none;
+}
+
+.gallery__slider .swiper-button-prev {
+    left: 1.125rem;
+}
+
+.gallery__slider .swiper-button-next {
+    right: 1.125rem;
+}
+
+.gallery__slider .swiper-slide {
+	transform: scale(0.8);
+}

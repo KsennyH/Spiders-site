@@ -1,0 +1,29 @@
+// base
+@import "./base/variables";
+@import "./base/reset";
+@import "./base/base";
+
+// blocks
+@import './blocks/header';
+@import './blocks/navigation';
+@import './blocks/menu';
+@import './blocks/mobile-nav';
+@import './blocks/mobile-nav-button';
+@import './blocks/preview';
+@import './blocks/btn';
+@import './blocks/about';
+@import './blocks/title';
+@import './blocks/subtitle';
+@import './blocks/features';
+@import './blocks/animals';
+@import './blocks/new-animals';
+@import './blocks/spider';
+@import './blocks/gallery';
+@import './blocks/visitors';
+@import './blocks/contacts';
+@import './blocks/info';
+@import './blocks/map';
+@import './blocks/footer';
+
+// media
+@import "./base/media";

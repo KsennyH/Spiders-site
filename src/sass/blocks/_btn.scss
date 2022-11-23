@@ -1,0 +1,28 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 2.5rem;
+    font-family: 'Belleza', sans-serif;
+    color: $default;
+    background-color: $title;
+    padding: 0.3125rem 3.125rem;
+    transition: color 0.5s ease, background-color 0.5s ease;
+    &:hover,
+    :focus,
+    :active {
+        background-color: $default;
+        color: $title;
+    }
+    &--reverse {
+        background-color: $default;
+        color: $title;
+        &:hover,
+        :focus,
+        :active {
+            color: $default;
+            background-color: $title;
+        }
+    }
+}

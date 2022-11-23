@@ -1,0 +1,19 @@
+.info {
+    font-family: 'Syne', sans-serif;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 3.125rem;
+    &__subtitle {
+        margin-bottom: 0.9375rem;
+    }
+    &__address {
+        font-style: normal;
+        margin-bottom: 0.9375rem;
+        p + p {
+            margin-top: 0.3125rem;
+        }
+    }
+    &__text {
+        color: $title;
+    }
+}
